@@ -1,0 +1,2 @@
+	The code prints this because all of the operators within the first console.log are “or” operators, so it will log the first truthy value found, which is "JCSS", because all of the preceding values are empty strings which would evaluate as falsy. 
+	In the second console.log, every “or” operator is compared to a falsy value (empty strings) until it reaches and returns “JCSS”, which is then compared to “Anonymous” with an "and" operator. Both "JCSS" and Anonymous are true, so it will return the last value: “Anonymous”. 
