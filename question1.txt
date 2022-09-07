@@ -1,0 +1,1 @@
+Initializing “result” using “let” sets its scope to within the if/else block, but the return is outside of this block. If the last else is reached (which it is with any n < 0 and -1 < 0) once out of the if/else block, “result” has no definition within that scope, so “undefined” is returned.
